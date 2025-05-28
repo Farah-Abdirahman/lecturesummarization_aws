@@ -11,7 +11,7 @@ This project demonstrates an event-driven architecture for automatically transcr
 
 ## Architecture
 
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram](architecture.jpg)
 
 ```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
