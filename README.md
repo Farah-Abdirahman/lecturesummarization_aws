@@ -1,3 +1,4 @@
+
 # Audio Transcription & Summarization Pipeline with Amazon Bedrock
 
 This project demonstrates an event-driven architecture for automatically transcribing audio files and generating summaries using AWS services, including Amazon Bedrock's foundation models. The application provides a streamlined workflow for processing audio content and extracting valuable insights.
@@ -158,29 +159,3 @@ LLM Apps With Amazon Bedrock/
 ├── run_demo.sh             # Linux/macOS setup script
 ├── setup.sh                # Environment setup script
 └── streamlit_requirements.txt # Python dependencies
-```
-
-## Customization
-
-### Modifying the Summarization Prompt
-
-You can customize the prompt used for summarization by editing the `prompt_template.txt` file or modifying the prompt directly in the `generate_summary` function in both `app.py` and `lambda_summarize.py`.
-
-### Using Different Bedrock Models
-
-The application is configured to work with both Amazon Titan and Anthropic Claude models. You can change the model by setting the `BEDROCK_MODEL_ID` environment variable to any supported Bedrock model ID.
-
-## Limitations
-
-- Audio files must be in MP3 or WAV format
-- Currently supports English language transcription only
-- Maximum audio file size is limited by Amazon Transcribe service quotas
-- Summarization quality depends on the chosen Bedrock model
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
