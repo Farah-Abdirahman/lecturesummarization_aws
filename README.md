@@ -7,7 +7,6 @@ This project demonstrates an event-driven architecture for automatically transcr
 
 [![Watch the demo video](https://img.youtube.com/vi/9L1459gJejU/0.jpg)](https://www.youtube.com/watch?v=9L1459gJejU)
 
-*Replace YOUR_VIDEO_ID with your actual YouTube video ID*
 
 ## Architecture
 
